@@ -103,5 +103,5 @@ function onConnect(err) {
 }
 
 E.on('init', function() {
-    wifi.connect("skeep", { password: "Burnley33" }, onConnect);
+    wifi.connect("skeep", { password: "**" }, onConnect);
 });
